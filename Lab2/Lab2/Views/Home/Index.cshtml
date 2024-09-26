@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container my-5">
+    <div class="row text-center">
+        <div class="col">
+            <h1 class="display-4">Ласкаво просимо на наш сайт!</h1>
+            <p class="lead">Вивчайте створення веб-додатків з використанням ASP.NET Core MVC і Bootstrap.</p>
+        </div>
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h2>Що таке ASP.NET Core MVC?</h2>
+            <p>ASP.NET Core MVC — це потужний фреймворк для створення масштабованих веб-застосунків. Він використовує шаблон Model-View-Controller, який поділяє логіку програми та її інтерфейс.</p>
+        </div>
+        <div class="col-md-6">
+            <h2>Чому Bootstrap?</h2>
+            <p>Bootstrap — це популярний CSS-фреймворк, який дозволяє легко створювати адаптивні та стильні веб-інтерфейси. З його допомогою можна швидко оформлювати сторінки по сітці.</p>
+        </div>
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <img src="~/images/adaptive_design.jpg" class="img-fluid rounded" alt="Зображення 1">
+            <p class="text-center mt-2">Адаптивний дизайн</p>
+        </div>
+        <div class="col-md-4">
+            <img src="~/images/interface.jpg" class="img-fluid rounded" alt="Зображення 2">
+            <p class="text-center mt-2">Стильний інтерфейс</p>
+        </div>
+        <div class="col-md-4">
+            <img src="~/images/technologies.jpg" class="img-fluid rounded" alt="Зображення 3">
+            <p class="text-center mt-2">Потужні технології</p>
+        </div>
+    </div>
+    
+    <div class="row mt-5 text-center">
+        <div class="col">
+            <a href="https://learn.microsoft.com/aspnet/core" class="btn btn-primary btn-lg">Дізнатися більше ASP.NET Core</a>
+            <a href="https://getbootstrap.com" class="btn btn-secondary btn-lg ml-2">Дізнатися про Bootstrap</a>
+        </div>
+    </div>
+
+    <div class="container my-5">
+
+        <div class="row mt-5 text-center">
+            <div class="col">
+                <a asp-controller="Resolve" asp-action="Show" class="btn btn-success btn-lg">Перейти на сторінку Resolve</a>
+            </div>
+        </div>
+    </div>
+</div>
